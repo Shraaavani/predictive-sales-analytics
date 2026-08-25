@@ -186,15 +186,4 @@ predictive-sales-analytics/
 └── README.md
 ```
 
-## Pushing to GitHub
 
-The `venv/` folder (11MB+) should **never** be committed — `.gitignore`
-already excludes it. If you've already committed it in a previous
-attempt, remove it from git's tracking before pushing:
-
-```bash
-git rm -r --cached venv
-git add .
-git commit -m "Add deep learning model, docs, and deployment config"
-git push
-```
